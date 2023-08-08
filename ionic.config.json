@@ -1,0 +1,7 @@
+{
+  "name": "undercover",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

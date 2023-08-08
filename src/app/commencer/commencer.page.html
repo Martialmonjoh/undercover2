@@ -1,0 +1,40 @@
+
+<ion-content [fullscreen]="true">
+  <div class="selection">
+    <h2>Joueurs : {{rangeVal}}</h2>
+    <ion-range [(ngModel)]="rangeVal" min="0" max="10" pin="true"></ion-range>  
+    <p></p>
+  </div>
+  <div class="joueurs">
+    <div class="civils">
+      <p>{{rangeVal1}} Civils</p>
+    </div>
+    <div class="tripler">
+      <div class="moins">
+        <ion-icon name="remove-circle-outline"></ion-icon>
+      </div>
+      <div class="text">
+        <p>Undercovers</p>
+      </div>
+      <div class="plus">
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </div>
+    </div><div class="tripler">
+      <div class="moins">
+        <ion-icon name="remove-circle-outline"></ion-icon>
+      </div>
+    <div class="civil">
+      <p>Mr.white</p>
+    </div>
+      <div class="plus">
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <div class="civil2">
+    <p>Ajouter des roles speciaux</p>
+  </div>
+  <div class="commencer">
+    <p>commencer</p>
+  </div>
+</ion-content>

@@ -1,0 +1,65 @@
+.titre{
+    height: 25%;
+    width: 100%;
+    background: rgba(56, 56, 56, 0.397);
+    padding: 20px;
+    text-align: center;
+}
+.joue{
+    color: rgb(82, 212, 235);
+    font-size: 35px;
+}
+.choix{
+    color: white;
+    font-size: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.card{
+    height: 100px;
+    width: 40%;
+    background: gainsboro;
+    margin: 0 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.but{
+    height: 30px;
+    width: 80px;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carte{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cartes{
+    height: 150px;
+    width: 100px;
+    background: rgb(241, 218, 7);
+    border-radius: 15px;
+}
+// .barre{
+//     position: absolute;
+//     top: 40%;
+//     width: 300px;
+//     height: 100px;
+//     -webkit-transform: skew(-30deg);
+//     -moz-transform: skew(-30deg);
+//     -o-transform: skew(30deg);
+//     transform: skew(30deg);
+//     border-top: 50px solid;
+//     border-bottom: 50px solid;
+// }

@@ -1,0 +1,89 @@
+ion-content{
+    --background: #0F180E;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+.vector img{
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 41.522552490234375px;
+}
+.vector{
+    margin-left: 90px;
+}
+.texts{
+    font-family: Inter;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: center;
+    transform: rotate(-17deg);
+    color: white;
+}
+.start{
+    border: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #143005;
+    padding: 2px 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.start img{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.img_text{
+    border-radius: 10px;
+    border: 1px solid gray;
+    justify-content: center;
+    background: #143005;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: flex;
+    padding: 0 10px;
+  }
+  .text{
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+  }
+  ion-popover {
+    --background: #5A8491;
+    --backdrop-opacity: 0.6;
+    --box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.6);
+    color: white;
+    --width: 300px;
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+  }
+  ion-popover ion-content {
+    --background: #0F180E;
+    color: white;
+  }

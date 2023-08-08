@@ -1,0 +1,48 @@
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <div class="head">
+      <div>
+        <img src="..\assets\images\unnamed.png" alt="" class="logo">
+      </div>
+      <div>
+        <img src="..\assets\images\Vectorbon.png" alt="" class="logo" [routerLink]="['/profil']">       
+      </div>
+    </div>
+  </ion-header>
+  <div class="start">
+    <img src="..\assets\images\Polygon.png" alt="">
+    <h2 id="auto-trigger">Demarrer le jeu maintenant</h2>
+    <ion-popover trigger="auto-trigger" size="auto" [dismissOnSelect]="true">
+      <ng-template>
+      <ion-content class="ion-padding">
+        <div class="img_text">
+          <div class="img">
+            <img src="\assets\images\Vector.png" alt="">
+          </div>
+          <div class="text">
+            <h1>Mode en ligne</h1>
+            <p>jouer en ligne avec tes amis</p>
+          </div>
+        </div>
+        <div class="img_text">
+          <div class="img">
+            <img src="\assets\images\Vectorop.png" alt="">
+          </div>
+          <div class="text">
+            <h1  [routerLink]="['/commencer']">Mode  hors-ligne</h1>
+            <p>tout le monde joue sur le meme telephone. Il faut etre ensemble physiquement</p>
+          </div>
+        </div>
+        </ion-content>
+      </ng-template>
+    </ion-popover>
+
+  </div>
+  <div class="vector">
+    <img src="..\assets\images\Vector1.png" alt="">
+  </div>
+  <div class="texts">
+    <p>Le joueur <br> oublieux</p>
+  </div>
+</ion-content>

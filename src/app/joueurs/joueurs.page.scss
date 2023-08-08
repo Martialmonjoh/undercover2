@@ -1,0 +1,22 @@
+// ion-content{
+//     --background: url('/assets/images/fond.jpg') no-repeat center center / cover;
+// }
+ion-content{
+    --background: #0F180E;
+}
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 900;
+}
+.text1{
+    color: beige;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Inter;
+    line-height: 25px;
+}

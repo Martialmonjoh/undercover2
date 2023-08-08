@@ -1,0 +1,115 @@
+ion-content{
+    --background: #0F180E;
+}
+.joueurs{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #143005;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.tripler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background: #020202;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+.text2{
+    height: 50px;
+    width: 90%;
+    text-align: center;
+    background: #020202;
+    border-radius: 50px;
+    color: white;
+    margin: 0 10px;
+}
+ion-icon{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+ion-range{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.selection{
+    margin-top: 15%;
+}
+.selection h2{
+    color: white;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.civils{
+    width: 100px;
+    background: #4977A1;
+    border-radius: 50px;
+    color: white;
+    margin: 0 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.civils p{
+    text-align: center;
+    padding: 15px 0;
+}
+.civil{
+    width: 120px;
+    background: white;
+    border-radius: 50px;
+    color: black;
+    margin:  10px;
+    border: 1px solid black;
+}
+.civil p{
+    text-align: center;
+}
+.civil2{
+    width: 90%;
+    background: #143005;
+    border-radius: 10px;
+    color: white;
+    margin:  10px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.civil2 p{
+    text-align: center;
+    font-size: 20px;
+}
+.commencer{
+    width: 50%;
+    background: #143005;
+    border-radius: 50px;
+    color: white;
+    margin:  10px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.commencer p{
+    text-align: center;
+    font-size: 20px;
+}

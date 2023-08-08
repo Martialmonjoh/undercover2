@@ -1,0 +1,103 @@
+ion-content{
+    --background: #0F180E;
+}
+.contain{
+    background: 0F180E;
+    top: -500px;
+}
+.merde{
+    height: 60%;
+    width: 100%;
+    background: #0b412467;
+}
+.opt{
+    background: #0b412467;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.clic{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60px;
+    padding: 10px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #27BB6B;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    
+}
+.profil{
+    margin-top: 0px;
+}
+.photo{
+    margin-top: 110px;
+    margin-left: -75px;
+    margin-right: 75px;
+}
+.camera{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+.global{
+    display: flex;
+    justify-content: center;
+}
+ion-label h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+ion-icon{
+    zoom: 3.0;
+    margin-left: 2px;
+    color: gray;
+} 
+ion-label{
+    display: flex;
+    justify-content: center;
+}
+ion-content .card{
+    color: black;
+    align-items: center;
+    border-radius: 15px;
+    background: #82ECBF;
+}
+.card1{
+    background: #27BB6B;
+    color: white;
+}
+.card2{
+    background: #02FF76;
+    color: white;
+}
+ion-card p{
+    margin-bottom: 40px;
+}
+.score{
+    display: flex;
+}
+.score ion-card{
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+ion-list h2{
+    color: black;
+    padding-left: 10px;
+}
+ion-item{
+    background: #B4D2C5;
+}
+ion-button{
+    color: #2CD08B;
+}
+ion-item{
+    --background: #B4D2C5;
+    color: #2A4A45;
+}

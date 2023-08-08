@@ -1,0 +1,55 @@
+ion-content{
+    --background: #0F180E;
+}
+ion-list{
+    --background: #0F180E;
+}
+.profil{
+    display: flex;
+    background: #143005;
+    color: white;
+}
+.logo{
+    height:80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.photo{
+    margin: 4px 20px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin: 0 20px;
+}
+ion-item{
+    margin-bottom: 3px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.butto{
+    background: blue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+.button1{
+    background: blue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+h2{
+    color: white;
+    margin: 10px 0;
+}
+ion-item{
+    --background: #143005;
+    color: white;
+}
