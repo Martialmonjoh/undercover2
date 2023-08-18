@@ -9,14 +9,21 @@ const DATABASE_FILE_NAME: string ='data.db';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
- 
+  
+  currentDate!: string;
   randomNumberCeil1: any;
   randomNumberFloor: number | undefined;
   number!: number;
+  number1!: number;
+
   sqlite: any;
 
   private db: SQLiteObject | undefined;
   constructor(private http: HttpClient) {
+
+    const date = new Date();
+    this.currentDate = date.toLocaleDateString('fr-FR');
+  
     // let x = Math.floor((Math.random() * 10) + 1);
     this.GameApiUrl = 'http://127.0.0.1:8000/api/words';
     this.readAPI(this.GameApiUrl)
@@ -31,8 +38,19 @@ export class Tab3Page {
   let size = this.mots.length;
   let index =  Math.floor((Math.random() * size-1)+ 1);
   this.number = index +1;
+  
   this.GameData=this.mots[index]['word1'];
   this.GameData2=this.mots[index]['word2'];
+
+  let index1 = Math.floor((Math.random() * 2)+1);
+  this.number1 = index1 ;
+  if(index1 == 1){
+    this.GameData4=this.mots[index]['word1'];
+    this.GameData5=this.mots[index]['word2'];
+  }else{
+    this.GameData4=this.mots[index]['word2'];
+    this.GameData5=this.mots[index]['word1'];
+  }
 });
 
   // this.randomNumberCeil1 = Math.floor((Math.random() * 100) + 1);
@@ -64,6 +82,14 @@ export class Tab3Page {
     mot1: '',
     mot2: '',
     states: ''
+  };
+  GameData4 = {
+    mot1: '',
+    mot2: '',
+  };
+  GameData5 = {
+    mot1: '',
+    mot2: '',
   };
   mots=[];
   readAPI(URL: string) {

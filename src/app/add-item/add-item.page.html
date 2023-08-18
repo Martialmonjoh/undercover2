@@ -1,19 +1,102 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>AddItem</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-list>
-    <ion-item>
-      <ion-label floating>Title</ion-label>
-      <ion-input type="text" [(ngModel)]="title"></ion-input>
-    </ion-item>
+<ion-content>
+  
+  <!-- <div class=slider_focus>
 
-    <ion-item>
-      <ion-label floating>Description</ion-label>
-      <ion-input type="text" [(ngModel)]="description"></ion-input>
-    </ion-item>
-  </ion-list>
+    <ul>
+      
+        <li tabindex="0">
+        
+          <button tabindex="-1">
+            <img src="..\assets\images\Vectorbon.png" alt>
+          </button>
+          <span><img src="..\assets\images\Vector1.png"alt></span>
+          
+        </li>
+      
+      <li tabindex="0">
+        
+        <button tabindex="-1">
+          <img src="..\assets\images\Vector2.png" alt>
+        </button>
+        <span><img src="..\assets\images\Vector3.png" alt></span>
+        
+      </li>
+      
+      <li tabindex="0">
+        <button tabindex="-1">
+          <img src="..\assets\images\Vector4.png" alt>
+        </button>
+        <span><img src="..\assets\images\Vectorbon.png" alt></span>
+      
+      </li>
+      
+      <li tabindex="0">
+        <button tabindex="-1">
+          <img src="..\assets\images\Vectorcl.png" alt>
+        </button>
+        <span><img src="..\assets\images\Vectorlivre.png" alt></span>
+        
+      </li>
+      
+    </ul>
+    
+  </div>
+  
+   -->
+   
+
+<div class="cadre-slider">	
+
+  <input class="slider" type="radio" id="slide1" name="slider" aria-label="image 1" checked="checked">
+  <input class="slider" type="radio" id="slide2" name="slider" aria-label="image 2">
+  <input class="slider" type="radio" id="slide3" name="slider" aria-label="image 3">
+  <input class="slider" type="radio" id="slide4" name="slider" aria-label="image 4">
+  <input class="slider" type="radio" id="slide5" name="slider" aria-label="image 5">
+  <input class="slider" type="radio" id="slide6" name="slider" aria-label="image 6">
+  
+  <div class=cadre-slide>
+  
+    <div class="slide">
+      <span class=figcaption>Description etape 1</span><img src="..\assets\images\1.jpg">
+      <span class=figcaptio>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti expedita dicta assumenda ullam magni? Qui aperiam doloribus voluptates deserunt quod cumque veniam impedit odio. Quibusdam saepe tempora optio molestiae officiis.</span>
+    </div>
+    <div class="slide">
+      <span class=figcaption>Description etape 2</span><img src="..\assets\images\2.jpg">
+      <span class=figcaptio>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti expedita dicta assumenda ullam magni? Qui aperiam doloribus voluptates deserunt quod cumque veniam impedit odio. Quibusdam saepe tempora optio molestiae officiis.</span>
+    </div>
+    <div class="slide">
+      <span class=figcaption>Description etape 3</span><img src="..\assets\images\3.jpg">
+      <span class=figcaptio>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti expedita dicta assumenda ullam magni? Qui aperiam doloribus voluptates deserunt quod cumque veniam impedit odio. Quibusdam saepe tempora optio molestiae officiis.</span>
+    </div>
+    <div class="slide">
+      <span class=figcaption>Description etape 4</span><img src="..\assets\images\4.jpg">
+      <span class=figcaptio>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti expedita dicta assumenda ullam magni? Qui aperiam doloribus voluptates deserunt quod cumque veniam impedit odio. Quibusdam saepe tempora optio molestiae officiis.</span>
+    </div>etape
+    <div class="slide">
+      <span class=figcaption>Description etape 5</span><img src="..\assets\images\5.jpg">
+      <span class=figcaptio>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti expedita dicta assumenda ullam magni? Qui aperiam doloribus voluptates deserunt quod cumque veniam impedit odio. Quibusdam saepe tempora optio molestiae officiis.</span>
+    </div>
+    <div class="slide">
+      <span class=figcaption>Description etape 6</span><img src="..\assets\images\6.jpg">
+      <span class=figcaptio>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti expedita dicta assumenda ullam magni? Qui aperiam doloribus voluptates deserunt quod cumque veniam impedit odio. Quibusdam saepe tempora optio molestiae officiis.</span>
+    </div>
+      
+  </div>	
+
+  <div class="cadre-miniatures">
+    <label class="miniatures" for="slide1"><img src="..\assets\images\1.jpg" alt></label>
+    <label class="miniatures" for="slide2"><img src="..\assets\images\2.jpg" alt></label>
+    <label class="miniatures" for="slide3"><img src="..\assets\images\3.jpg" alt></label>
+    <label class="miniatures" for="slide4"><img src="..\assets\images\4.jpg" alt></label>
+    <label class="miniatures" for="slide5"><img src="..\assets\images\5.jpg" alt></label>
+    <label class="miniatures" for="slide6"><img src="..\assets\images\6.jpg" alt></label>
+    
+  </div>	
+  
+  </div><!-- fin conteneur global -->	
+  
+  
+  
+  
 </ion-content>

@@ -16,8 +16,21 @@
     </div>
   </div>
   <div class="carte">
-    <div class="cartes">
-      
-    </div>
+    <div class="cartes" (click)="showPromptAlert()"></div>
+    <div class="cartes" (click)="showPromptAlert()"></div>
+    <div class="cartes" (click)="showPromptAlert()"> </div>
   </div>
+  <div class="carte">
+    <div class="cartes" (click)="showPromptAlert()"></div>
+    <div class="cartes" (click)="showPromptAlert()"> </div>
+    <div class="cartes" (click)="showPromptAlert()"> </div>
+  </div>
+  <div class="objet">
+    <div class="cercle" (click)="openDialog()"><p>exit</p></div>
+    <div class="cercle"></div>
+  </div>
+  <h1>{{number}}</h1>
+  <h1>le civil : <br> votre mot secret est: <br> {{ GameData }}</h1>
+  <h1>l'undercover : <br> votre mot secret est: <br> {{ GameData2 }}</h1>
+  
 </ion-content>

@@ -2,9 +2,9 @@
 <ion-content [fullscreen]="true">
   <div class="selection">
     <h2>Joueurs : {{rangeVal}}</h2>
-    <ion-range [(ngModel)]="rangeVal" min="0" max="10" pin="true"></ion-range>  
-    <p></p>
+    <ion-range [(ngModel)]="rangeVal" (ionKnobMoveEnd)="onIonKnobMoveEnd($event)" min="0" max="20" pin="true"></ion-range> 
   </div>
+  
   <div class="joueurs">
     <div class="civils">
       <p>{{rangeVal1}} Civils</p>
@@ -14,7 +14,7 @@
         <ion-icon name="remove-circle-outline"></ion-icon>
       </div>
       <div class="text">
-        <p>Undercovers</p>
+        <p>{{reste}} Undercovers</p>
       </div>
       <div class="plus">
         <ion-icon name="add-circle-outline"></ion-icon>
@@ -24,7 +24,7 @@
         <ion-icon name="remove-circle-outline"></ion-icon>
       </div>
     <div class="civil">
-      <p>Mr.white</p>
+      <p>{{rangeVal2}}Mr.white</p>
     </div>
       <div class="plus">
         <ion-icon name="add-circle-outline"></ion-icon>
@@ -35,6 +35,6 @@
     <p>Ajouter des roles speciaux</p>
   </div>
   <div class="commencer">
-    <p>commencer</p>
+    <p [routerLink]="['/choix-carte']">commencer</p>
   </div>
 </ion-content>

@@ -1,9 +1,62 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>crud</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content padding>
   
+
+  <div class=slider><!-- Notre conteneur global -->
+
+    <input name="slider" id=slide_img1 type="radio" checked><!-- même nom pour tous les input / identifiant unique -->
+    <input name="slider" id=slide_img2 type="radio">
+    <input name="slider" id=slide_img3 type="radio">
+    <input name="slider" id=slide_img4 type="radio"> 
+    
+    <ul>
+      <li class=img1>
+        <img src="..\assets\images\1.jpg" alt height="" width="">
+      </li>
+      <li class=img2>
+        <img src="..\assets\images\2.jpg" alt height="" width="">
+      </li>
+      <li class=img3>
+        <img src="..\assets\images\3.jpg" alt height="" width="">
+      </li>
+      <li class=img4>
+        <img src="..\assets\images\4.jpg" alt height="" width="">
+      </li>
+    </ul>
+    
+    <div class=precedent>
+      <label class=img1 for=slide_img1></label>
+      <label class=img2 for=slide_img2></label>
+      <label class=img3 for=slide_img3></label>
+      <label class=img4 for=slide_img4></label>
+    </div>
+    
+    <div class=suivant>
+      <label class=img1 for=slide_img1></label>
+      <label class=img2 for=slide_img2></label>
+      <label class=img3 for=slide_img3></label>
+      <label class=img4 for=slide_img4></label>
+    </div>
+    
+    <div class=puces>
+      <label class="img1" for=slide_img1>
+        <span class=actif_puces></span>
+      </label>
+      <label class="img2" for=slide_img2>
+        <span class=actif_puces></span>
+      </label>
+      <label class="img3" for=slide_img3>
+      <span class=actif_puces></span>
+      </label>	
+      <label class="img4" for=slide_img4>
+          <span class=actif_puces></span>
+      </label>
+    </div>
+    
+  </div>
+    
+  <button ion-button block (click)="showPromptAlert()">
+    Show Prompt Alert
+  </button>
+     
 </ion-content>
